@@ -1,0 +1,129 @@
+/* Categories drop down */
+
+/* Override Bootstrap's default blue color for the categories menu */
+.categoryDrop .dropdown-menu {
+    background-color: #f8f9fa !important;
+    /* Light background color */
+}
+
+.categoryDrop .dropdown-item {
+    color: inherit !important;
+    /* Inherit root font color */
+}
+
+.categoryDrop .dropdown-item:hover,
+.categoryDrop .dropdown-item:focus {
+    color: #ffffff !important;
+    /* Text color on hover/focus */
+    /* Custom hover/focus background color */
+}
+
+/* Adjusting dropdown toggle button for consistency */
+.categoryDrop .dropdown-toggle {
+    color: inherit !important;
+    /* Inherit root font color for the dropdown toggle */
+    background-color: transparent !important;
+    /* Transparent background */
+    border: none !important;
+    /* Remove border */
+}
+
+.categoryDrop .dropdown-toggle:hover,
+.categoryDrop .dropdown-toggle:focus {
+    /* Custom color for the dropdown toggle on hover/focus */
+    background-color: transparent !important;
+    /* Keep background transparent */
+    border: none !important;
+    /* Keep border removed */
+}
+
+/* Optional: Adjusting the dropdown arrow color */
+.categoryDrop .dropdown-toggle::after {
+    color: inherit !important;
+    /* Inherit root font color for the dropdown arrow */
+}
+
+/* Ensuring the wrapped dropdown items retain custom styles */
+.categoryDrop .dropdown-menu.show {
+    background-color: #f8f9fa !important;
+    /* Light background color */
+}
+
+.categoryDrop .dropdown-menu.show .dropdown-item {
+    color: inherit !important;
+    /* Inherit root font color */
+}
+
+.categoryDrop .dropdown-menu.show .dropdown-item:hover,
+.categoryDrop .dropdown-menu.show .dropdown-item:focus {
+    color: #ffffff !important;
+    /* Text color on hover/focus */
+    /* Custom hover/focus background color */
+}
+
+
+
+
+
+/* User Dropdown */
+
+/* Override Bootstrap's default blue color for the categories menu */
+.userDrop .dropdown-menu {
+    background-color: #f8f9fa !important;
+    /* Light background color */
+}
+
+.userDrop .dropdown-item {
+    color: inherit !important;
+    /* Inherit root font color */
+}
+
+.userDrop .dropdown-item:hover,
+.userDrop .dropdown-item:focus {
+    color: #ffffff !important;
+    /* Text color on hover/focus */
+    /* Custom hover/focus background color */
+}
+
+/* Adjusting dropdown toggle button for consistency */
+.userDrop .dropdown-toggle {
+    color: inherit !important;
+    /* Inherit root font color for the dropdown toggle */
+    background-color: transparent !important;
+    /* Transparent background */
+    border: none !important;
+    /* Remove border */
+}
+
+.userDrop .dropdown-toggle:hover,
+.userDrop .dropdown-toggle:focus {
+    /* Custom color for the dropdown toggle on hover/focus */
+    background-color: transparent !important;
+    /* Keep background transparent */
+    border: none !important;
+    /* Keep border removed */
+}
+
+/* Optional: Adjusting the dropdown arrow color */
+.userDrop .dropdown-toggle::after {
+    color: inherit !important;
+    /* Inherit root font color for the dropdown arrow */
+}
+
+/* Ensuring the wrapped dropdown items retain custom styles */
+.userDrop .dropdown-menu.show {
+    background-color: #f8f9fa !important;
+    /* Light background color */
+}
+
+.userDrop .dropdown-menu.show .dropdown-item {
+    color: inherit !important;
+    /* Inherit root font color */
+}
+
+.userDrop .dropdown-menu.show .dropdown-item:hover,
+.userDrop .dropdown-menu.show .dropdown-item:focus {
+    color: #ffffff !important;
+    /* Text color on hover/focus */
+    /* Custom hover/focus background color */
+}
