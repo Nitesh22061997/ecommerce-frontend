@@ -6,6 +6,8 @@ import SearchInput from "../Form/SearchInput";
 import useCategory from "../../hooks/useCategory";
 import { useCart } from "../../context/cart";
 import "../../styles/HeaderStyles.css"
+import 'bootstrap/js/dist/util';
+import 'bootstrap/js/dist/collapse';
 
 import { Nav, NavDropdown } from 'react-bootstrap';
 import { Badge } from "antd";
@@ -90,8 +92,8 @@ const Header = () => {
                                 </>
                             )}
                             <li className="nav-item">
-                                <NavLink to="/cart" className="nav-link">
-                                    <Badge count={cart?.length} showZero offset={[10, -5]}>
+                                <NavLink to="/cart" className=" nav-link">
+                                    <Badge className="cart" count={cart?.length} showZero offset={[10, -5]}>
                                         Cart
                                     </Badge>
                                 </NavLink>

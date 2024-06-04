@@ -127,3 +127,32 @@
     /* Text color on hover/focus */
     /* Custom hover/focus background color */
 }
+
+/* Remove default Bootstrap styles for .active class */
+.nav-link.active,
+.dropdown-item.active {
+    background-color: transparent !important;
+    border-bottom: none !important;
+}
+
+/* Custom styles for active menu items */
+.nav-link.active {
+    color: #007bff;
+    /* Change this to your desired color */
+    font-weight: bold;
+}
+
+.dropdown-item.active {
+    color: #007bff;
+    /* Change this to your desired color */
+}
+
+/* Increase font size for the "Cart" text */
+.cart {
+    font-size: 18px;
+}
+
+/* Increase font size for the badge count */
+.nav-link .badge {
+    font-size: 16px;
+}
