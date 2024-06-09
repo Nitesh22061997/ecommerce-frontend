@@ -16,7 +16,7 @@ const CreateProduct = () => {
     const handleSubmit = async (e) => {
         e.preventDefault()
         try {
-            const { data } = await axios.post(`${process.env.REACT_APP_API_URL}/api/v1/category/create-category`, { name })
+            const { data } = await axios.post(`${import.meta.env.VITE_URL}/api/v1/category/create-category`, { name })
             if (data.success) {
                 toast.success((`${name} is created`))
                 getAllCategory()
